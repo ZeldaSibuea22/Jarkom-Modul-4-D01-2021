@@ -129,3 +129,26 @@ Kemudian, melakukan konfigurasi subnet pada topologi yang telah dibuat di GNS3. 
 
 ### IP Water7
 <img src="img/IP_Water7.PNG">
+
+
+
+### Alabasta
+<img src="img/Routing_Alabasta.PNG">
+
+### Foosha
+<img src="img/Routing_Foosha.PNG">
+
+### Guanhao
+<img src="img/Routing_Guanhao.PNG">
+
+### Oimo
+<img src="img/Routing_Oimo.PNG">
+
+### Pucci
+<img src="img/Routing_Pucci.PNG">
+
+### Seastone
+<img src="img/Routing_Seastone.PNG">
+
+### Water7
+<img src="img/Routing_Water7.PNG">
