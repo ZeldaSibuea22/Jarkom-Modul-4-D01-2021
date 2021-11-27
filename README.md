@@ -72,83 +72,86 @@ Dari tree yang telah dibuat, didapatkan pembagian NID untuk setiap subnet kecil 
 
 
 Kemudian, melakukan konfigurasi subnet pada topologi yang telah dibuat di GNS3. Konfigurasi yang dilakukan adalah sebagai berikut. <br>
-(Konfigurasi ip tiap node)
+
 ### IP Alabasta
-<img src="img/IP_Alabasta.PNG">
+<img src="img/IP_Alabasta.PNG" width=300>
 
 ### IP Blueno
-<img src="img/IP_Blueno.PNG">
+<img src="img/IP_Blueno.PNG" width=300>
 
 ### IP Calmbelt
-<img src="img/IP_Calmbelt.PNG">
+<img src="img/IP_Calmbelt.PNG" width=300>
 
 ### IP Chiper
-<img src="img/IP_Chiper.PNG">
+<img src="img/IP_Chiper.PNG" width=300>
 
 ### IP Courtyard
-<img src="img/IP_Courtyard.PNG">
+<img src="img/IP_Courtyard.PNG" width=300>
 
 ### IP Doriki
-<img src="img/IP_Doriki.PNG">
+<img src="img/IP_Doriki.PNG" width=300>
 
 ### IP Elena
-<img src="img/IP_Elena.PNG">
+<img src="img/IP_Elena.PNG" width=300>
 
 ### IP EniesLobby
-<img src="img/IP_EniesLobby.PNG">
+<img src="img/IP_EniesLobby.PNG" width=300>
 
 ### IP Foosha
-<img src="img/IP_Foosha.PNG">
+<img src="img/IP_Foosha.PNG" width=300>
 
 ### IP Fukurou
-<img src="img/IP_Fukurou.PNG">
+<img src="img/IP_Fukurou.PNG" width=300>
 
 ### IP Guanhao
-<img src="img/IP_Guanhao.PNG">
+<img src="img/IP_Guanhao.PNG" width=300>
 
 ### IP Jabra
-<img src="img/IP_Jabra.PNG">
+<img src="img/IP_Jabra.PNG" width=300>
 
 ### IP Jipangu
-<img src="img/IP_Jipangu.PNG">
+<img src="img/IP_Jipangu.PNG" width=300>
 
 ### IP Jorge
-<img src="img/IP_Jorge.PNG">
+<img src="img/IP_Jorge.PNG" width=300>
 
 ### IP Maingate
-<img src="img/IP_Maingate.PNG">
+<img src="img/IP_Maingate.PNG" width=300>
 
 ### IP Oimo
-<img src="img/IP_Oimo.PNG">
+<img src="img/IP_Oimo.PNG" width=300>
 
 ### IP Pucci
-<img src="img/IP_Pucci.PNG">
+<img src="img/IP_Pucci.PNG" width=300>
 
 ### IP Seastone
-<img src="img/IP_Seastone.PNG">
+<img src="img/IP_Seastone.PNG" width=300>
 
 ### IP Water7
-<img src="img/IP_Water7.PNG">
+<img src="img/IP_Water7.PNG" width=300>
 
+
+
+Berikut merupakan konfigurasi routing pada setiap router untuk menghubungan client dan server.
 
 
 ### Alabasta
-<img src="img/Routing_Alabasta.PNG">
+<img src="img/Routing_Alabasta.PNG" width=500>
 
 ### Foosha
-<img src="img/Routing_Foosha.PNG">
+<img src="img/Routing_Foosha.PNG" width=500>
 
 ### Guanhao
-<img src="img/Routing_Guanhao.PNG">
+<img src="img/Routing_Guanhao.PNG" width=500>
 
 ### Oimo
-<img src="img/Routing_Oimo.PNG">
+<img src="img/Routing_Oimo.PNG" width=500>
 
 ### Pucci
-<img src="img/Routing_Pucci.PNG">
+<img src="img/Routing_Pucci.PNG" width=500>
 
 ### Seastone
-<img src="img/Routing_Seastone.PNG">
+<img src="img/Routing_Seastone.PNG" width=500>
 
 ### Water7
-<img src="img/Routing_Water7.PNG">
+<img src="img/Routing_Water7.PNG" width=500>
