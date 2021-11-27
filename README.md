@@ -67,10 +67,32 @@ Untuk tabel perhitungannya adalah sebagai berikut :
 
 
 Untuk VLSM kami mengerjakan nya pada Cisco Packet Tracert. Pada CPT kami membuat topologi jaringan terlebih dahulu sebagai berikut
-<img width="410" alt="topologi vlsm" src="https://user-images.githubusercontent.com/73489643/143708851-977f3c49-524c-4b7f-93c2-eeb87b05ec92.png">
+<img width="600" alt="topologi vlsm" src="https://user-images.githubusercontent.com/73489643/143708851-977f3c49-524c-4b7f-93c2-eeb87b05ec92.png">
 
 Dalam pengaturan IP, kami memngatur IP berdasarkan perhitungan yang telah kami buat. Contoh berikut ini, kita ambil subnet A2.
+```
+    Subnet A2 : 
+    NID : 192.192.8.0
+    Netmask : 255.255.252.0
+    IP range : 192.192.8.1 - 192.192.11.254
+```
+Maka, berdasarkan data tersebut, pada cisco tracker kita akan mengaturnya.
+Mulai pada Foosha dapat kita lihat bahwa interface yang terhubung dengan
+subnet A2 adalah `Fa0/0` . Maka kita atur sebagai berikut berdasarkan
+ip rangenya :
+<img width="700" alt="foosha vlsm" src="https://user-images.githubusercontent.com/73489643/143716175-afdb8d96-208a-4ecb-8ef0-91dd941e98b2.png">
 
+Setelah mengatur IP pada Foosha, maka selanjutnya, kita mengatur
+IP pada Blueno yang merupakan bagian dari subnet A2.Berdasarkan IP range
+yang tersedia, sebagai berikut : 
+<img width="700" alt="blueno vlsm" src="https://user-images.githubusercontent.com/73489643/143716707-e1ba56a7-9cc1-499d-a423-2f48e37df5cc.png">
+
+
+
+Setelah semuanya berhasil, maka lakukan hal yang sama pada semua subnet
+
+
+### Routing pada VLSM
  
 ## CIDR
 Pengerjaan dengan teknik CIDR dilakukan di GNS3
