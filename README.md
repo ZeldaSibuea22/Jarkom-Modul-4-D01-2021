@@ -13,13 +13,6 @@ Lakukan pembagian subnet dengan teknik VLSM dan CIDR
 # Jawaban
 ## VLSM
 Pengerjaan dengan teknik VLSM dilakukan di CPT (Cisco Packet Tracer)
-Dalam pengerjaan dengan menggunakan metode VLSM, kami membagi gambar tersebut kedalam beberapa bagian kecil. Berikut adalah gambar pembagian yang telah kami buat.
-
-<img src="img/vlsm subnet.png">
-
-Setelah melakukan pembagian tersebut, berikut nya kami menghitung berapa jumlah host pada setiap subnet dan netmask berapa yang akan digunakan. 
-Berikut adalah perhitungannya
-
 
 ## CIDR
 Pengerjaan dengan teknik CIDR dilakukan di GNS3
@@ -53,6 +46,59 @@ Dari tree yang telah dibuat, didapatkan pembagian NID untuk setiap subnet kecil 
 
 Kemudian, melakukan konfigurasi subnet pada topologi yang telah dibuat di GNS3. Konfigurasi yang dilakukan adalah sebagai berikut. <br>
 (Konfigurasi ip tiap node)
-## IP Alabasta
+### IP Alabasta
 <img src="img/IP_Alabasta.PNG">
 
+### IP Blueno
+<img src="img/IP_Blueno.PNG">
+
+### IP Calmbelt
+<img src="img/IP_Calmbelt.PNG">
+
+### IP Chiper
+<img src="img/IP_Chiper.PNG">
+
+### IP Courtyard
+<img src="img/IP_Courtyard.PNG">
+
+### IP Doriki
+<img src="img/IP_Doriki.PNG">
+
+### IP Elena
+<img src="img/IP_Elena.PNG">
+
+### IP EniesLobby
+<img src="img/IP_EniesLobby.PNG">
+
+### IP Foosha
+<img src="img/IP_Foosha.PNG">
+
+### IP Fukurou
+<img src="img/IP_Fukurou.PNG">
+
+### IP Guanhao
+<img src="img/IP_Guanhao.PNG">
+
+### IP Jabra
+<img src="img/IP_Jabra.PNG">
+
+### IP Jipangu
+<img src="img/IP_Jipangu.PNG">
+
+### IP Jorge
+<img src="img/IP_Jorge.PNG">
+
+### IP Maingate
+<img src="img/IP_Maingate.PNG">
+
+### IP Oimo
+<img src="img/IP_Oimo.PNG">
+
+### IP Pucci
+<img src="img/IP_Pucci.PNG">
+
+### IP Seastone
+<img src="img/IP_Seastone.PNG">
+
+### IP Water7
+<img src="img/IP_Water7.PNG">
