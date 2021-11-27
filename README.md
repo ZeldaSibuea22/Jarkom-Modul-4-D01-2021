@@ -63,6 +63,10 @@ Untuk tabel perhitungannya adalah sebagai berikut :
 |    A13      | 192.192.27.160|  /30   |255.255.255.252| 192.192.27.161 - 192.192.27.162|
 |    A14      | 192.192.27.164|  /30   |255.255.255.252| 192.192.27.161 - 192.192.27.162|
 |    A15      | 192.192.12.0  |  /22   |255.255.252.0  | 192.192.12.1 - 192.192.15.254  |
+Untuk VLSM kami mengerjakan nya pada Cisco Packet Tracert. Pada CPT kami membuat topologi jaringan terlebih dahulu sebagai berikut
+<img width="410" alt="topologi vlsm" src="https://user-images.githubusercontent.com/73489643/143708851-977f3c49-524c-4b7f-93c2-eeb87b05ec92.png">
+
+Dalam pengaturan IP, kami memngatur IP berdasarkan perhitungan yang telah kami buat. Contoh berikut ini, kita ambil subnet A2.
 
  
 ## CIDR
