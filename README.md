@@ -197,87 +197,99 @@ Dari tree yang telah dibuat, didapatkan pembagian NID untuk setiap subnet kecil 
 <img src="https://user-images.githubusercontent.com/68428942/143681633-64548eba-e2b0-4f30-a720-7ca6bb8d5c56.png" width=300>
 
 
-Kemudian, melakukan konfigurasi subnet pada topologi yang telah dibuat di GNS3. Konfigurasi yang dilakukan adalah sebagai berikut. <br>
+Kemudian, melakukan konfigurasi subnet pada topologi yang telah dibuat di GNS3. Konfigurasi IP disesuaikan dengan range IP yang tersedia dari tabel di atas. Konfigurasi yang dilakukan adalah sebagai berikut. <br>
 
-### IP Alabasta
-<img src="img/IP_Alabasta.PNG" width=300>
+- IP Alabasta <br>
+    <img src="img/IP_Alabasta.PNG" width=300>
 
-### IP Blueno
-<img src="img/IP_Blueno.PNG" width=300>
+- IP Blueno <br>
+    <img src="img/IP_Blueno.PNG" width=300>
 
-### IP Calmbelt
-<img src="img/IP_Calmbelt.PNG" width=300>
+- IP Calmbelt <br>
+    <img src="img/IP_Calmbelt.PNG" width=300>
 
-### IP Chiper
-<img src="img/IP_Chiper.PNG" width=300>
+- IP Chiper <br>
+    <img src="img/IP_Chiper.PNG" width=300>
 
-### IP Courtyard
-<img src="img/IP_Courtyard.PNG" width=300>
+- IP Courtyard <br>
+    <img src="img/IP_Courtyard.PNG" width=300>
 
-### IP Doriki
-<img src="img/IP_Doriki.PNG" width=300>
+- IP Doriki <br>
+    <img src="img/IP_Doriki.PNG" width=300>
 
-### IP Elena
-<img src="img/IP_Elena.PNG" width=300>
+- IP Elena <br>
+    <img src="img/IP_Elena.PNG" width=300>
 
-### IP EniesLobby
-<img src="img/IP_EniesLobby.PNG" width=300>
+- IP EniesLobby <br>
+    <img src="img/IP_EniesLobby.PNG" width=300>
 
-### IP Foosha
-<img src="img/IP_Foosha.PNG" width=300>
+- IP Foosha <br>
+    <img src="img/IP_Foosha.PNG" width=300>
 
-### IP Fukurou
-<img src="img/IP_Fukurou.PNG" width=300>
+- IP Fukurou <br>
+    <img src="img/IP_Fukurou.PNG" width=300>
 
-### IP Guanhao
-<img src="img/IP_Guanhao.PNG" width=300>
+- IP Guanhao <br>
+    <img src="img/IP_Guanhao.PNG" width=300>
 
-### IP Jabra
-<img src="img/IP_Jabra.PNG" width=300>
+- IP Jabra <br>
+    <img src="img/IP_Jabra.PNG" width=300>
 
-### IP Jipangu
-<img src="img/IP_Jipangu.PNG" width=300>
+- IP Jipangu <br>
+    <img src="img/IP_Jipangu.PNG" width=300>
 
-### IP Jorge
-<img src="img/IP_Jorge.PNG" width=300>
+- IP Jorge <br>
+    <img src="img/IP_Jorge.PNG" width=300>
 
-### IP Maingate
-<img src="img/IP_Maingate.PNG" width=300>
+- IP Maingate <br>
+    <img src="img/IP_Maingate.PNG" width=300>
 
-### IP Oimo
-<img src="img/IP_Oimo.PNG" width=300>
+- IP Oimo <br>
+    <img src="img/IP_Oimo.PNG" width=300>
 
-### IP Pucci
-<img src="img/IP_Pucci.PNG" width=300>
+- IP Pucci <br>
+    <img src="img/IP_Pucci.PNG" width=300>
 
-### IP Seastone
-<img src="img/IP_Seastone.PNG" width=300>
+- IP Seastone <br>
+    <img src="img/IP_Seastone.PNG" width=300>
 
-### IP Water7
-<img src="img/IP_Water7.PNG" width=300>
+- IP Water7 <br>
+    <img src="img/IP_Water7.PNG" width=300>
 
 
 
 Berikut merupakan konfigurasi routing pada setiap router untuk menghubungan client dan server.
 
 
-### Alabasta
-<img src="img/Routing_Alabasta.PNG" width=500>
+- Alabasta <br>
+    <img src="img/Routing_Alabasta.PNG" width=500>
 
-### Foosha
-<img src="img/Routing_Foosha.PNG" width=500>
+- Foosha <br>
+    <img src="img/Routing_Foosha.PNG" width=500>
 
-### Guanhao
-<img src="img/Routing_Guanhao.PNG" width=500>
+- Guanhao <br>
+    <img src="img/Routing_Guanhao.PNG" width=500>
 
-### Oimo
-<img src="img/Routing_Oimo.PNG" width=500>
+- Oimo <br>
+    <img src="img/Routing_Oimo.PNG" width=500>
 
-### Pucci
-<img src="img/Routing_Pucci.PNG" width=500>
+- Pucci <br>
+    <img src="img/Routing_Pucci.PNG" width=500>
 
-### Seastone
-<img src="img/Routing_Seastone.PNG" width=500>
+- Seastone <br>
+    <img src="img/Routing_Seastone.PNG" width=500>
 
-### Water7
-<img src="img/Routing_Water7.PNG" width=500>
+- Water7 <br>
+    <img src="img/Routing_Water7.PNG" width=500>
+    
+    
+    
+Agar semua node dapat terhubung ke internet, masukkan command berikut pada router Foosha yang terhubung langsung dengan NAT.
+```
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.192.0.0/16
+```
+
+Kemudian pada node yang ingin terhubung dengan internet, melakukan setting pada `/etc/resolv.conf/` sebelum melakukan ping.
+```
+echo nameserver 192.168.122.1 > /etc/resolv.conf
+```
