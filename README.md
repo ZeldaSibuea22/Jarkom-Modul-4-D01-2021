@@ -13,6 +13,16 @@ Lakukan pembagian subnet dengan teknik VLSM dan CIDR
 # Jawaban
 ## VLSM
 Pengerjaan dengan teknik VLSM dilakukan di CPT (Cisco Packet Tracer)
+Dalam pengerjaan dengan menggunakan metode VLSM, kami membagi gambar tersebut kedalam beberapa bagian kecil. Berikut adalah gambar pembagian yang telah kami buat.
+
+<img src="img/vlsm subnet.png">
+
+Setelah melakukan pembagian tersebut, berikut nya kami menghitung berapa jumlah host pada setiap subnet dan netmask berapa yang akan digunakan. 
+Berikut adalah perhitungannya
+
+|Label| Jumlah | Netmask |
+|-----|--------|---------|
+| A1  | 701    |/22      |
 
 ## CIDR
 Pengerjaan dengan teknik CIDR dilakukan di GNS3
