@@ -8,11 +8,11 @@ Kelompok D01:
 Lakukan pembagian subnet dengan teknik VLSM dan CIDR
 
 
-![image](https://user-images.githubusercontent.com/68428942/143680643-df324d44-87ff-4418-84ae-777ae9c502ee.png)
+<img src="img/Topologi.png">
 
 # Jawaban
 ## VLSM
-Pengerjaan dengan teknik VLSM dilakukan di CPT
+Pengerjaan dengan teknik VLSM dilakukan di CPT (Cisco Packet Tracer)
 
 ## CIDR
 Pengerjaan dengan teknik CIDR dilakukan di GNS3
@@ -40,7 +40,8 @@ Hasil penggabungan subnet yang telah didapatkan dibuat dalam bentuk tree sebagai
 
 
 Dari tree yang telah dibuat, didapatkan pembagian NID untuk setiap subnet kecil sebagai berikut. <br>
-(tabel pembagian NID)
+
+<img src="https://user-images.githubusercontent.com/68428942/143681633-64548eba-e2b0-4f30-a720-7ca6bb8d5c56.png" width=300>
 
 
 Kemudian, melakukan konfigurasi subnet pada topologi yang telah dibuat di GNS3. Konfigurasi yang dilakukan adalah sebagai berikut. <br>
