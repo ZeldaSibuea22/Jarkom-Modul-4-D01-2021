@@ -20,9 +20,25 @@ Dalam pengerjaan dengan menggunakan metode VLSM, kami membagi gambar tersebut ke
 Setelah melakukan pembagian tersebut, berikut nya kami menghitung berapa jumlah host pada setiap subnet dan netmask berapa yang akan digunakan. 
 Berikut adalah perhitungannya
 
-|Label| Jumlah | Netmask |
-|-----|--------|---------|
-| A1  | 701    |/22      |
+|Label  | Jumlah | Netmask |
+|-------|--------|---------|
+| A1    | 701    |/22      |
+| A2    | 1001   |/22      |
+| A3    | 101    |/25      |
+| A4    | 2      |/30      |
+| A5    | 2      |/30      |
+| A6    | 2      |/30      |
+| A7    | 13     |/28      |
+| A8    | 502    |/23      |
+| A9    | 2      |/30      |
+| A10   | 521    |/22      |
+| A11   | 2021   |/21      |
+| A12   | 252    |/24      |
+| A13   | 2      |/30      |
+| A14   | 2      |/30      |
+| A15   | 721    |/22      |
+|Jumlah | 5845   |/19      |
+
 
  
 ## CIDR
