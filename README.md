@@ -93,6 +93,79 @@ Setelah semuanya berhasil, maka lakukan hal yang sama pada semua subnet
 
 
 ### Routing pada VLSM
+###Routing pada VLSM
+
+Setelah semua sudah diatur IPnya,maka selanjutnya melakukan routing
+agar semua dapat terhubung. Kami mengambil contoh `Router Water7`.
+ - Water 7 harus terhubung dengan subnet A3
+ - Water 7 harus terhubung dengan subnet A11
+ - Subnet A3 dan A11 terhubung ke `Pucci`
+Oleh karena itu pengaturan routingnya adalah sebagai berikut :
+```
+Subnet A3 :
+    NID = 192.217.27.0
+    Netmask = 255.255.255.128
+    NextHop  = 192.192.27.146
+
+Subnet A11 :
+    NID = 192.217.0.0
+    Netmask = 255.255.248.0
+    NextHop  = 192.192.27.146
+
+Dan kerena water7 berada di bawah Foosha, maka kita perlu menabmahkan routing
+    NID : 0.0.0.0
+    Netmask : 0.0.0.0
+    Nexthop : 192.192.27.149
+```
+Berikut ini contoh routing pada `water7`
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/73489643/143719037-f50cd795-9289-48e1-aef9-1f84091208a5.png">
+
+Lalu, berikut ini merupakan routing pada setiap router yang ada :
+- Pucci
+```
+0.0.0.0/0 via 192.192.27.144
+```
+- Water7
+```
+192.192.27.0/25 via 192.192.27.154
+192.192.0.0/21 via 192.192.27.154
+0.0.0.0/0 via 192.192.27.150
+```
+- Foosha
+```
+192.192.16.0/22 via 192.192.27.149
+192.192.27.0/25 via 192.192.27.149
+192.192.0.0/21 via 192.192.27.149
+192.192.27.144/30 via 192.192.27.149
+192.192.12.0/22 via 192.192.27.158
+192.192.26.0/24 via 192.192.27.158
+192.192.27.160/30 via 192.192.27.158
+192.192.27.164/30 via 192.192.27.158
+192.192.20.0/22 via 192.192.27.158
+192.192.27.128/28 via 192.192.27.158
+192.192.24.0/23 via 192.192.27.158
+```
+- Guanhao
+```
+0.0.0.0/0 via 192.192.27.157
+192.192.12.0/22 via 192.192.27.162
+192.192.26.0/24 via 192.192.27.162
+192.192.27.164/30 via 192.192.27.162
+192.192.27.128/28 via 192.192.24.3
+```
+- Alabasta
+```
+0.0.0.0/0 via 192.192.24.1
+```
+- Oimo
+```
+0.0.0.0/0 via 192.192.27.161
+192.192.12.0/22 via 192.192.26.3
+```
+- Seastone
+```
+0.0.0.0/0 via 192.192.26.1
+```
  
 ## CIDR
 Pengerjaan dengan teknik CIDR dilakukan di GNS3
