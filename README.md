@@ -38,7 +38,8 @@ Berikut adalah perhitungannya
 | A14   | 2      |/30      |
 | A15   | 721    |/22      |
 |Jumlah | 5845   |/19      |
-|-------|--------|---------|
+
+
 Pada major networknya berada pada netmask /19. Dan prefix IP kelompok kami adalah 192.192.X.X
 Untuk melakukan perhitungan subnetting dengan metode VLSM, maka kami membuat pohon perhitungan VLSM
 yaitu dapat dilihat sebagai berikut :
@@ -63,7 +64,8 @@ Untuk tabel perhitungannya adalah sebagai berikut :
 |    A13      | 192.192.27.160|  /30   |255.255.255.252| 192.192.27.161 - 192.192.27.162|
 |    A14      | 192.192.27.164|  /30   |255.255.255.252| 192.192.27.161 - 192.192.27.162|
 |    A15      | 192.192.12.0  |  /22   |255.255.252.0  | 192.192.12.1 - 192.192.15.254  |
-|-------------|---------------|--------|---------------|--------------------------------|
+
+
 Untuk VLSM kami mengerjakan nya pada Cisco Packet Tracert. Pada CPT kami membuat topologi jaringan terlebih dahulu sebagai berikut
 <img width="410" alt="topologi vlsm" src="https://user-images.githubusercontent.com/73489643/143708851-977f3c49-524c-4b7f-93c2-eeb87b05ec92.png">
 
