@@ -46,3 +46,6 @@ Dari tree yang telah dibuat, didapatkan pembagian NID untuk setiap subnet kecil 
 
 Kemudian, melakukan konfigurasi subnet pada topologi yang telah dibuat di GNS3. Konfigurasi yang dilakukan adalah sebagai berikut. <br>
 (Konfigurasi ip tiap node)
+## IP Alabasta
+<img src="img/IP_Alabasta.PNG">
+
