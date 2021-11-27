@@ -8,11 +8,11 @@ Kelompok D01:
 Lakukan pembagian subnet dengan teknik VLSM dan CIDR
 
 
-![image](https://user-images.githubusercontent.com/68428942/143680643-df324d44-87ff-4418-84ae-777ae9c502ee.png)
+<img src="img/Topologi.png">
 
 # Jawaban
 ## VLSM
-Pengerjaan dengan teknik VLSM dilakukan di CPT
+Pengerjaan dengan teknik VLSM dilakukan di CPT (Cisco Packet Tracer)
 
 ## CIDR
 Pengerjaan dengan teknik CIDR dilakukan di GNS3
