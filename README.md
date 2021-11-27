@@ -93,7 +93,7 @@ Setelah semuanya berhasil, maka lakukan hal yang sama pada semua subnet
 
 
 ### Routing pada VLSM
-###Routing pada VLSM
+
 
 Setelah semua sudah diatur IPnya,maka selanjutnya melakukan routing
 agar semua dapat terhubung. Kami mengambil contoh `Router Water7`.
@@ -112,7 +112,7 @@ Subnet A11 :
     Netmask = 255.255.248.0
     NextHop  = 192.192.27.146
 
-Dan kerena water7 berada di bawah Foosha, maka kita perlu menabmahkan routing
+Dan kerana water7 berada di bawah Foosha, maka kita perlu menambahkan routing
     NID : 0.0.0.0
     Netmask : 0.0.0.0
     Nexthop : 192.192.27.149
