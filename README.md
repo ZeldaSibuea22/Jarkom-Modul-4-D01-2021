@@ -13,7 +13,102 @@ Lakukan pembagian subnet dengan teknik VLSM dan CIDR
 # Jawaban
 ## VLSM
 Pengerjaan dengan teknik VLSM dilakukan di CPT (Cisco Packet Tracer)
+Dalam pengerjaan dengan menggunakan metode VLSM, kami membagi gambar tersebut kedalam beberapa bagian kecil. Berikut adalah gambar pembagian yang telah kami buat.
 
+<img src="img/vlsm subnet.png">
+
+Setelah melakukan pembagian tersebut, berikut nya kami menghitung berapa jumlah host pada setiap subnet dan netmask berapa yang akan digunakan. 
+Berikut adalah perhitungannya
+
+<table>
+        <tr>
+            <th>Label</th>
+            <th>Jumlah</th>
+            <th>Netmask </th>
+        </tr>
+    
+        <tr>
+            <td>A1</td>
+            <td>701</td>
+            <td>/22</td>
+        </tr>
+
+	 <tr>
+            <td>A2</td>
+            <td>1001</td>
+            <td>/22</td>
+        </tr>
+ 	<tr>
+            <td>A3</td>
+            <td>101</td>
+            <td>/25</td>
+        </tr>
+	<tr>
+            <td>A4</td>
+            <td>2</td>
+            <td>/30</td>
+        </tr>
+	<tr>
+            <td>A5</td>
+            <td>2</td>
+            <td>/30</td>
+        </tr>
+	<tr>
+            <td>A6</td>
+            <td>2</td>
+            <td>/30</td>
+        </tr>
+	<tr>
+            <td>A7</td>
+            <td>13</td>
+            <td>/28</td>
+        </tr>
+	<tr>
+            <td>A8</td>
+            <td>502</td>
+            <td>/23</td>
+        </tr>
+	<tr>
+            <td>A9</td>
+            <td>2</td>
+            <td>/30</td>
+        </tr>
+	<tr>
+            <td>A10</td>
+            <td>521</td>
+            <td>/22</td>
+        </tr>
+	<tr>
+            <td>A11</td>
+            <td>2021</td>
+            <td>/21</td>
+        </tr>
+	<tr>
+            <td>A12</td>
+            <td>252</td>
+            <td>/24</td>
+        </tr>
+	<tr>
+            <td>A13</td>
+            <td>2</td>
+            <td>/30</td>
+        </tr>
+	<tr>
+            <td>A14</td>
+            <td>2</td>
+            <td>/30</td>
+        </tr>
+	<tr>
+            <td>A15</td>
+            <td>721</td>
+            <td>/22</td>
+        </tr>
+	<tr>
+            <td>Jumlah</td>
+            <td>5845</td>
+            <td>/19</td>
+        </tr>
+    </table>
 ## CIDR
 Pengerjaan dengan teknik CIDR dilakukan di GNS3
 
