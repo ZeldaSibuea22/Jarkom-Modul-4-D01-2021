@@ -40,7 +40,8 @@ Hasil penggabungan subnet yang telah didapatkan dibuat dalam bentuk tree sebagai
 
 
 Dari tree yang telah dibuat, didapatkan pembagian NID untuk setiap subnet kecil sebagai berikut. <br>
-(tabel pembagian NID)
+
+<img src="https://user-images.githubusercontent.com/68428942/143681633-64548eba-e2b0-4f30-a720-7ca6bb8d5c56.png" width=300>
 
 
 Kemudian, melakukan konfigurasi subnet pada topologi yang telah dibuat di GNS3. Konfigurasi yang dilakukan adalah sebagai berikut. <br>
